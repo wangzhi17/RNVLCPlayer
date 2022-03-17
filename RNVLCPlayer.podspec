@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "RNVLCPlayer"
-  s.version      = "1.0.38"
+  s.version      = "1.0.0"
   s.summary      = "VLC player"
   s.requires_arc = true
   s.author       = { 'wangzhi17' => 'wangzhi0114@163.com' }

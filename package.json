@@ -4,5 +4,12 @@
   "description": "React native media player for video streaming and playing.Support hikvision",
   "main": "VLCPlayer.js",
   "author": "wangzhi0114@163.com",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangzhi17/RNVLCPlayer"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.60.0"
+  }
 }
