@@ -2,7 +2,7 @@
   "name": "rn-vlc-player",
   "version": "1.0.0",
   "description": "React native media player for video streaming and playing.Support hikvision",
-  "main": "index.js",
+  "main": "VLCPlayer.js",
   "author": "wangzhi0114@163.com",
   "license": "MIT"
 }
