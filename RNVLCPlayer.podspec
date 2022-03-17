@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.homepage     = 'https://github.com/wangzhi17/RNVLCPlayer.git'
   s.source       = { :git => "https://github.com/wangzhi17/RNVLCPlayer.git" }
-  s.source_files = 'ios/RCTVLCPlayer/*'
+  s.source_files = 'ios/RNVLCPlayer/*'
   s.platform     = :ios, "8.0"
   s.static_framework = true
   s.dependency 'React'

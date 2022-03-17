@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C1A0ECA1D07E18700441684 /* RCTVLCPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1A0EC81D07E18700441684 /* RCTVLCPlayerManager.m */; };
+		0C1A0ECA1D07E18700441684 /* RNVLCPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1A0EC81D07E18700441684 /* RNVLCPlayerManager.m */; };
 		0CA30C481D07E0DB003B09F9 /* RNVLCPlayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0CA30C471D07E0DB003B09F9 /* RNVLCPlayer.h */; };
 		0CA30C4A1D07E0DB003B09F9 /* RNVLCPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA30C491D07E0DB003B09F9 /* RNVLCPlayer.m */; };
 /* End PBXBuildFile section */
@@ -26,9 +26,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0C1A0EC81D07E18700441684 /* RCTVLCPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTVLCPlayerManager.m; sourceTree = "<group>"; };
-		0C1A0EC91D07E18700441684 /* RCTVLCPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTVLCPlayerManager.h; sourceTree = "<group>"; };
-		0CA30C441D07E0DB003B09F9 /* libRCTVLCPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTVLCPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C1A0EC81D07E18700441684 /* RNVLCPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNVLCPlayerManager.m; sourceTree = "<group>"; };
+		0C1A0EC91D07E18700441684 /* RNVLCPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNVLCPlayerManager.h; sourceTree = "<group>"; };
+		0CA30C441D07E0DB003B09F9 /* libRNVLCPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNVLCPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA30C471D07E0DB003B09F9 /* RNVLCPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNVLCPlayer.h; sourceTree = "<group>"; };
 		0CA30C491D07E0DB003B09F9 /* RNVLCPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNVLCPlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,7 +55,7 @@
 		0CA30C451D07E0DB003B09F9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0CA30C441D07E0DB003B09F9 /* libRCTVLCPlayer.a */,
+				0CA30C441D07E0DB003B09F9 /* libRNVLCPlayer.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,8 +63,8 @@
 		0CA30C461D07E0DB003B09F9 /* RNVLCPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				0C1A0EC81D07E18700441684 /* RCTVLCPlayerManager.m */,
-				0C1A0EC91D07E18700441684 /* RCTVLCPlayerManager.h */,
+				0C1A0EC81D07E18700441684 /* RNVLCPlayerManager.m */,
+				0C1A0EC91D07E18700441684 /* RNVLCPlayerManager.h */,
 				0CA30C471D07E0DB003B09F9 /* RNVLCPlayer.h */,
 				0CA30C491D07E0DB003B09F9 /* RNVLCPlayer.m */,
 			);
@@ -88,7 +88,7 @@
 			);
 			name = RNVLCPlayer;
 			productName = RNVLCPlayer;
-			productReference = 0CA30C441D07E0DB003B09F9 /* libRCTVLCPlayer.a */;
+			productReference = 0CA30C441D07E0DB003B09F9 /* libRNVLCPlayer.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -128,7 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C1A0ECA1D07E18700441684 /* RCTVLCPlayerManager.m in Sources */,
+				0C1A0ECA1D07E18700441684 /* RNVLCPlayerManager.m in Sources */,
 				0CA30C4A1D07E0DB003B09F9 /* RNVLCPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
