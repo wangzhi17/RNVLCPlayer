@@ -1,0 +1,11 @@
+{
+  "name": "rnvlcplayer",
+  "version": "1.0.0",
+  "description": "React native media player for video streaming and playing.Support hikvision by ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1.txt"
+  },
+  "author": "wangzhi0114@163.com",
+  "license": "MIT"
+}
