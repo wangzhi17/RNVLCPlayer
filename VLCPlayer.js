@@ -1,4 +1,4 @@
-import React,{ Component } from "react";
+import React, {Component} from "react";
 import {StyleSheet, requireNativeComponent, NativeModules, View} from "react-native";
 
 import PropTypes from "prop-types";
@@ -23,6 +23,7 @@ export default class VLCPlayer extends Component {
         this._onLoadStart = this._onLoadStart.bind(this);
         this.changeVideoAspectRatio = this.changeVideoAspectRatio.bind(this);
     }
+
     static defaultProps = {
         autoplay: true,
     };
@@ -32,23 +33,23 @@ export default class VLCPlayer extends Component {
     }
 
     seek(pos) {
-        this.setNativeProps({ seek: pos });
+        this.setNativeProps({seek: pos});
     }
 
     resume(isResume) {
-        this.setNativeProps({ resume: isResume });
+        this.setNativeProps({resume: isResume});
     }
 
     snapshot(path) {
-        this.setNativeProps({ snapshotPath: path });
+        this.setNativeProps({snapshotPath: path});
     }
 
     autoAspectRatio(isAuto) {
-        this.setNativeProps({ autoAspectRatio: isAuto });
+        this.setNativeProps({autoAspectRatio: isAuto});
     }
 
     changeVideoAspectRatio(ratio) {
-        this.setNativeProps({ videoAspectRatio: ratio });
+        this.setNativeProps({videoAspectRatio: ratio});
     }
 
     _assignRoot(component) {
@@ -92,7 +93,7 @@ export default class VLCPlayer extends Component {
     }
 
     _onStopped() {
-        this.setNativeProps({ paused: true });
+        this.setNativeProps({paused: true});
         if (this.props.onStopped) {
             this.props.onStopped();
         }
@@ -133,9 +134,9 @@ export default class VLCPlayer extends Component {
         source.initOptions = source.initOptions || [];
         //repeat the input media
         source.initOptions.push("--input-repeat=1000");
-        const nativeProps = Object.assign({}, this.props);
-        Object.assign(nativeProps, {
-            style: [styles.base, nativeProps.style],
+        const nativeProps = {
+            ...this.props,
+            style: [styles.base, this.props.style],
             source: source,
             src: {
                 uri,
@@ -156,8 +157,7 @@ export default class VLCPlayer extends Component {
             onVideoStopped: this._onStopped,
             onVideoBuffering: this._onBuffering,
             progressUpdateInterval: 250,
-        });
-
+        };
         return <RCTVLCPlayer ref={this._assignRoot} {...nativeProps} />;
     }
 }
