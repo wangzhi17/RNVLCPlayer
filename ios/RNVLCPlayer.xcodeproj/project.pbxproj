@@ -9,7 +9,22 @@
 /* Begin PBXBuildFile section */
 		0C1A0ECA1D07E18700441684 /* RNVLCPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1A0EC81D07E18700441684 /* RNVLCPlayerManager.m */; };
 		0CA30C481D07E0DB003B09F9 /* RNVLCPlayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0CA30C471D07E0DB003B09F9 /* RNVLCPlayer.h */; };
-		0CA30C4A1D07E0DB003B09F9 /* RNVLCPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA30C491D07E0DB003B09F9 /* RNVLCPlayer.m */; };
+		BCB0397727E8226000C106C3 /* RNVLCPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = BCB0397627E8225F00C106C3 /* RNVLCPlayer.mm */; };
+		BCB0398427E822AE00C106C3 /* libAudioEngine_64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB0397B27E822AE00C106C3 /* libAudioEngine_64.a */; };
+		BCB0398527E822AE00C106C3 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB0397C27E822AE00C106C3 /* libssl.a */; };
+		BCB0398627E822AE00C106C3 /* libHCCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB0397D27E822AE00C106C3 /* libHCCore.a */; };
+		BCB0398727E822AE00C106C3 /* AIP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB0397E27E822AE00C106C3 /* AIP.a */; };
+		BCB0398827E822AE00C106C3 /* libHCNetSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB0397F27E822AE00C106C3 /* libHCNetSDK.a */; };
+		BCB0398927E822AE00C106C3 /* libplayctrl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB0398027E822AE00C106C3 /* libplayctrl.a */; };
+		BCB0398A27E822AE00C106C3 /* libNPQos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB0398127E822AE00C106C3 /* libNPQos.a */; };
+		BCB0398B27E822AE00C106C3 /* libSystemTransform.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB0398227E822AE00C106C3 /* libSystemTransform.a */; };
+		BCB0398C27E822AE00C106C3 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB0398327E822AE00C106C3 /* libcrypto.a */; };
+		BCB0398E27E822E800C106C3 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB0398D27E822E800C106C3 /* libiconv.tbd */; };
+		BCB0399027E822F800C106C3 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB0398F27E822F800C106C3 /* NetworkExtension.framework */; };
+		BCB0399227E8230000C106C3 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB0399127E8230000C106C3 /* libbz2.tbd */; };
+		BCB0399427E8230B00C106C3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB0399327E8230B00C106C3 /* AudioToolbox.framework */; };
+		BCB0399627E8231500C106C3 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB0399527E8231500C106C3 /* VideoToolbox.framework */; };
+		BCB0399827E8232400C106C3 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB0399727E8232400C106C3 /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,7 +45,24 @@
 		0C1A0EC91D07E18700441684 /* RNVLCPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNVLCPlayerManager.h; sourceTree = "<group>"; };
 		0CA30C441D07E0DB003B09F9 /* libRNVLCPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNVLCPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA30C471D07E0DB003B09F9 /* RNVLCPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNVLCPlayer.h; sourceTree = "<group>"; };
-		0CA30C491D07E0DB003B09F9 /* RNVLCPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNVLCPlayer.m; sourceTree = "<group>"; };
+		BCB0397627E8225F00C106C3 /* RNVLCPlayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RNVLCPlayer.mm; sourceTree = "<group>"; };
+		BCB0397827E8227900C106C3 /* hcnetsdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hcnetsdk.h; sourceTree = "<group>"; };
+		BCB0397927E8227900C106C3 /* LinuxPlayM4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinuxPlayM4.h; sourceTree = "<group>"; };
+		BCB0397B27E822AE00C106C3 /* libAudioEngine_64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAudioEngine_64.a; path = lib/libAudioEngine_64.a; sourceTree = "<group>"; };
+		BCB0397C27E822AE00C106C3 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = lib/libssl.a; sourceTree = "<group>"; };
+		BCB0397D27E822AE00C106C3 /* libHCCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHCCore.a; path = lib/libHCCore.a; sourceTree = "<group>"; };
+		BCB0397E27E822AE00C106C3 /* AIP.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = AIP.a; path = lib/AIP.a; sourceTree = "<group>"; };
+		BCB0397F27E822AE00C106C3 /* libHCNetSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHCNetSDK.a; path = lib/libHCNetSDK.a; sourceTree = "<group>"; };
+		BCB0398027E822AE00C106C3 /* libplayctrl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libplayctrl.a; path = lib/libplayctrl.a; sourceTree = "<group>"; };
+		BCB0398127E822AE00C106C3 /* libNPQos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libNPQos.a; path = lib/libNPQos.a; sourceTree = "<group>"; };
+		BCB0398227E822AE00C106C3 /* libSystemTransform.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSystemTransform.a; path = lib/libSystemTransform.a; sourceTree = "<group>"; };
+		BCB0398327E822AE00C106C3 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = lib/libcrypto.a; sourceTree = "<group>"; };
+		BCB0398D27E822E800C106C3 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib/libiconv.tbd; sourceTree = DEVELOPER_DIR; };
+		BCB0398F27E822F800C106C3 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/NetworkExtension.framework; sourceTree = DEVELOPER_DIR; };
+		BCB0399127E8230000C106C3 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib/libbz2.tbd; sourceTree = DEVELOPER_DIR; };
+		BCB0399327E8230B00C106C3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		BCB0399527E8231500C106C3 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/VideoToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		BCB0399727E8232400C106C3 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +70,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCB0399827E8232400C106C3 /* CoreMedia.framework in Frameworks */,
+				BCB0399627E8231500C106C3 /* VideoToolbox.framework in Frameworks */,
+				BCB0399427E8230B00C106C3 /* AudioToolbox.framework in Frameworks */,
+				BCB0399227E8230000C106C3 /* libbz2.tbd in Frameworks */,
+				BCB0399027E822F800C106C3 /* NetworkExtension.framework in Frameworks */,
+				BCB0398E27E822E800C106C3 /* libiconv.tbd in Frameworks */,
+				BCB0398427E822AE00C106C3 /* libAudioEngine_64.a in Frameworks */,
+				BCB0398527E822AE00C106C3 /* libssl.a in Frameworks */,
+				BCB0398627E822AE00C106C3 /* libHCCore.a in Frameworks */,
+				BCB0398727E822AE00C106C3 /* AIP.a in Frameworks */,
+				BCB0398827E822AE00C106C3 /* libHCNetSDK.a in Frameworks */,
+				BCB0398927E822AE00C106C3 /* libplayctrl.a in Frameworks */,
+				BCB0398A27E822AE00C106C3 /* libNPQos.a in Frameworks */,
+				BCB0398B27E822AE00C106C3 /* libSystemTransform.a in Frameworks */,
+				BCB0398C27E822AE00C106C3 /* libcrypto.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +96,7 @@
 			children = (
 				0CA30C461D07E0DB003B09F9 /* RNVLCPlayer */,
 				0CA30C451D07E0DB003B09F9 /* Products */,
+				BCB0397A27E822AE00C106C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,9 +114,33 @@
 				0C1A0EC81D07E18700441684 /* RNVLCPlayerManager.m */,
 				0C1A0EC91D07E18700441684 /* RNVLCPlayerManager.h */,
 				0CA30C471D07E0DB003B09F9 /* RNVLCPlayer.h */,
-				0CA30C491D07E0DB003B09F9 /* RNVLCPlayer.m */,
+				BCB0397627E8225F00C106C3 /* RNVLCPlayer.mm */,
+				BCB0397827E8227900C106C3 /* hcnetsdk.h */,
+				BCB0397927E8227900C106C3 /* LinuxPlayM4.h */,
 			);
 			path = RNVLCPlayer;
+			sourceTree = "<group>";
+		};
+		BCB0397A27E822AE00C106C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCB0399727E8232400C106C3 /* CoreMedia.framework */,
+				BCB0399527E8231500C106C3 /* VideoToolbox.framework */,
+				BCB0399327E8230B00C106C3 /* AudioToolbox.framework */,
+				BCB0399127E8230000C106C3 /* libbz2.tbd */,
+				BCB0398F27E822F800C106C3 /* NetworkExtension.framework */,
+				BCB0398D27E822E800C106C3 /* libiconv.tbd */,
+				BCB0397E27E822AE00C106C3 /* AIP.a */,
+				BCB0397B27E822AE00C106C3 /* libAudioEngine_64.a */,
+				BCB0398327E822AE00C106C3 /* libcrypto.a */,
+				BCB0397D27E822AE00C106C3 /* libHCCore.a */,
+				BCB0397F27E822AE00C106C3 /* libHCNetSDK.a */,
+				BCB0398127E822AE00C106C3 /* libNPQos.a */,
+				BCB0398027E822AE00C106C3 /* libplayctrl.a */,
+				BCB0397C27E822AE00C106C3 /* libssl.a */,
+				BCB0398227E822AE00C106C3 /* libSystemTransform.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,8 +200,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCB0397727E8226000C106C3 /* RNVLCPlayer.mm in Sources */,
 				0C1A0ECA1D07E18700441684 /* RNVLCPlayerManager.m in Sources */,
-				0CA30C4A1D07E0DB003B09F9 /* RNVLCPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +306,10 @@
 					"$(SRCROOT)/node_modules/react-native/React/**",
 					"$(SRCROOT)/../../../ios/Pods/MobileVLCKit-unstable/MobileVLCKit-binary/MobileVLCKit.framework",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -255,6 +331,10 @@
 					"$(SRCROOT)/../../react-native/React/**",
 					"$(SRCROOT)/node_modules/react-native/React/**",
 					"$(SRCROOT)/../../../ios/Pods/MobileVLCKit-unstable/MobileVLCKit-binary/MobileVLCKit.framework",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";

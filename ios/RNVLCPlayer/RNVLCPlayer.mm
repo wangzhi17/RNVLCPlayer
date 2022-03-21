@@ -178,9 +178,10 @@ LONG startPreview(LONG lUserID,LONG channel,int dwStreamType, UIView *pView)
     if(_vlcPlayer){
         [_vlcPlayer play];
         //NSLog(@"播放");
+        _paused = NO;
+        _started = YES;
     }
-    _paused = NO;
-    _started = YES;
+    
 }
 - (void)_release
 {
